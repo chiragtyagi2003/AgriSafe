@@ -1,13 +1,14 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:food_saver/main.dart';
+import 'package:food_saver/home.dart';
 import 'package:food_saver/about_us.dart';
 import 'package:food_saver/brief.dart';
 import 'package:food_saver/products.dart';
 import 'package:food_saver/services.dart';
 import 'package:food_saver/order_history.dart';
 import 'package:food_saver/share.dart';
+
 
 class NavBar extends StatelessWidget{
   @override
