@@ -13,11 +13,11 @@ class _SplashState extends State<Splash> {
   @override
   void initState() {
     super.initState();
-    //_navigatetohome();
+    _navigatetohome();
   }
 
   _navigatetohome()async{
-    await Future.delayed(Duration(seconds: 2), () {} );
+    await Future.delayed(Duration(seconds: 3), () {} );
     Navigator.pushReplacement(
         context,
         MaterialPageRoute(builder: (context) => Home(),
@@ -28,15 +28,38 @@ class _SplashState extends State<Splash> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Container(
-          child: Text(
-              'Food Saver',
-            style: TextStyle(
-              fontSize: 25.0,
+      body: Container(
+        width: double.infinity,
+        child: Column(
+          children: [
+            Center(
+              child: Container(
+                margin: EdgeInsets.fromLTRB(0.0, 250.0, 0.0, 0.0),
+                child:CircleAvatar(
+                  backgroundImage: AssetImage('assets/logo.png'),
+                  radius: 120.0,
+                ),
+              ),
             ),
-          ),
+
+            Center(
+              child: Container(
+                margin: EdgeInsets.fromLTRB(0.0, 260.0, 0.0, 10.0),
+                child: Text(
+                    'by टू2Technologies',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 25.0,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+              ),
+            )
+          ],
         ),
+          decoration: BoxDecoration(
+          color: Colors.teal[600],
+    ),
       ),
     );
   }
