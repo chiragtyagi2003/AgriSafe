@@ -9,7 +9,7 @@ class Share extends StatelessWidget{
       appBar: AppBar(
         title: Text('Food Saver'),
         centerTitle: true,
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.teal[400],
       ),
 
       body: Center(
