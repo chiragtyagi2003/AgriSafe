@@ -2,18 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:food_saver/main.dart';
 import 'package:food_saver/navbar.dart';
 import 'package:food_saver/each_product_page.dart';
+import 'package:food_saver/topBar.dart';
 
 class Products extends StatelessWidget{
   @override
   Widget build(BuildContext context){
     return Scaffold(
       drawer: NavBar(),
-      appBar: AppBar(
-        title: Text('Food Saver'),
-        centerTitle: true,
-        backgroundColor: Colors.teal[400],
-      ),
-
+      appBar: TopBar(),
       body: SingleChildScrollView(
         child: Container(
           child: Row(

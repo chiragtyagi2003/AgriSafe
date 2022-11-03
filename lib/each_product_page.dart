@@ -1,17 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:food_saver/navbar.dart';
+import 'package:food_saver/topBar.dart';
 
 class Banana extends StatelessWidget{
   @override
   Widget build(BuildContext context){
     return Scaffold(
       drawer: NavBar(),
-      appBar: AppBar(
-        title: Text('Food Saver'),
-        centerTitle: true,
-        backgroundColor: Colors.teal[400],
-      ),
-
+      appBar: TopBar(),
       body:SingleChildScrollView(
       child:Column(
         children: [
@@ -120,12 +116,7 @@ class Tomato extends StatelessWidget{
   Widget build(BuildContext context){
     return Scaffold(
       drawer: NavBar(),
-      appBar: AppBar(
-        title: Text('Food Saver'),
-        centerTitle: true,
-        backgroundColor: Colors.teal[400],
-      ),
-
+      appBar:TopBar(),
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -238,12 +229,7 @@ class Mushroom extends StatelessWidget{
   Widget build(BuildContext context){
     return Scaffold(
       drawer: NavBar(),
-      appBar: AppBar(
-        title: Text('Food Saver'),
-        centerTitle: true,
-        backgroundColor: Colors.teal[400],
-      ),
-
+      appBar: TopBar(),
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -356,12 +342,7 @@ class Apple extends StatelessWidget{
   Widget build(BuildContext context){
     return Scaffold(
       drawer: NavBar(),
-      appBar: AppBar(
-        title: Text('Food Saver'),
-        centerTitle: true,
-        backgroundColor: Colors.teal[400],
-      ),
-
+      appBar: TopBar(),
       body:SingleChildScrollView(
         child:  Column(
           children: [
@@ -471,12 +452,7 @@ class CauliFlower extends StatelessWidget{
   Widget build(BuildContext context){
     return Scaffold(
       drawer: NavBar(),
-      appBar: AppBar(
-        title: Text('Food Saver'),
-        centerTitle: true,
-        backgroundColor: Colors.teal[400],
-      ),
-
+      appBar: TopBar(),
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -589,12 +565,7 @@ class Peach extends StatelessWidget{
   Widget build(BuildContext context){
     return Scaffold(
       drawer: NavBar(),
-      appBar: AppBar(
-        title: Text('Food Saver'),
-        centerTitle: true,
-        backgroundColor: Colors.teal[400],
-      ),
-
+      appBar: TopBar(),
       body: SingleChildScrollView(
         child: Column(
           children: [
