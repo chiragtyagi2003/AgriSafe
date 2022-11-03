@@ -30,11 +30,7 @@ class AboutUs extends StatelessWidget{
                 width: 1320.0,
                 height: 260.0,
                 child: Text(
-                    'Around 1.3 Billion tons of food gets wasted annually.\n'
-                    ' About 6% of global greenhouse gas emissions are produced\n'
-                    'due to wastage of food. This causes global warming,harms the environment,wastage of food (which can be fed to one in\n'
-                    'needs), wastage of resources\n'
-                    ',and wastage of money.',
+                    'Around 1.3 Billion tons of food gets wasted annually.About 6% of global greenhouse gas emissions are produced due to wastage of food. This causes global warming,harms the environment,wastage of food (which can be fed to one in needs), wastage of resources,and wastage of money.',
 
                     style: TextStyle(
                       color: Colors.white,
