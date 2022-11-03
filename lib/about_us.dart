@@ -10,6 +10,7 @@ class AboutUs extends StatelessWidget{
         title: Text('Food Saver'),
         centerTitle: true,
         backgroundColor: Colors.teal[400],
+
       ),
 
       body: Center(
