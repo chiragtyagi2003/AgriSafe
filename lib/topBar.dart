@@ -16,9 +16,9 @@ class TopBar extends StatelessWidget implements PreferredSizeWidget {
           IconButton(
               onPressed: () {},
               icon: Image.asset(
-                  'assets/company_logo2.png',
+                  'assets/company_logo3.png',
                   width: 100.0,
-                  height: 100.0,
+                  height: 70.0,
               ),
           ),
           SizedBox(width: 10.0,),

@@ -48,7 +48,7 @@ class _SplashState extends State<Splash> {
                 child: Text(
                     'by टू2Technologies',
                   style: TextStyle(
-                    color: Colors.white,
+                    color: Colors.black,
                     fontSize: 25.0,
                   ),
                   textAlign: TextAlign.center,
@@ -58,7 +58,7 @@ class _SplashState extends State<Splash> {
           ],
         ),
           decoration: BoxDecoration(
-          color: Colors.teal[600],
+          color: Colors.amber[600],
     ),
       ),
     );
