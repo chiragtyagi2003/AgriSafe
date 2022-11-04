@@ -24,7 +24,8 @@ class Home extends StatelessWidget{
 
             SizedBox(height: 25.0,),
             CircleAvatar(
-              backgroundImage: AssetImage('assets/logo.png'),
+              backgroundImage: AssetImage('assets/logo2.png'),
+              backgroundColor: Colors.white,
               radius: 150.0,
             ),
 

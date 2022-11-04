@@ -4,16 +4,21 @@ class TopBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-        title: Text('Food Saver'),
+        title: Text(
+            'Food Saver',
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+          ),
+        ),
         centerTitle: true,
-        backgroundColor: Colors.teal[400],
+        backgroundColor: Colors.amber[400],
         actions: [
           IconButton(
               onPressed: () {},
               icon: Image.asset(
-                  'assets/company_logo.png',
+                  'assets/company_logo2.png',
                   width: 100.0,
-                  height: 50.0,
+                  height: 100.0,
               ),
           ),
           SizedBox(width: 10.0,),
