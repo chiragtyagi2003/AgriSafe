@@ -19,12 +19,12 @@ class NavBar extends StatelessWidget{
         padding: EdgeInsets.zero,
         children: [
           //header for navbar, user name and account info
-          UserAccountsDrawerHeader(accountName: Text('Food Saver'),
-              accountEmail: Text('tu2technologies@gmail.com'),
+          UserAccountsDrawerHeader(accountName: Text('AgriSafe'),
+              accountEmail: Text('nakshatramaharishi258@gmail.com'),
               currentAccountPicture: CircleAvatar(
                 child: ClipOval(
                   child: Image.asset(
-                      'assets/logo.png',
+                      'assets/agrisafe-logos.jpeg',
                        width:90,
                        height: 90,
                        fit: BoxFit.cover,
@@ -62,16 +62,16 @@ class NavBar extends StatelessWidget{
 
           ),
 
-          ListTile(
-            leading: Icon(Icons.book),
-            title: Text('Brief'),
-            onTap: () {
-              Navigator.push(context,
-              MaterialPageRoute(builder: (context) => Brief(),
-                ),
-              );
-            },
-          ),
+          // ListTile(
+          //   leading: Icon(Icons.book),
+          //   title: Text('Brief'),
+          //   onTap: () {
+          //     Navigator.push(context,
+          //     MaterialPageRoute(builder: (context) => Brief(),
+          //       ),
+          //     );
+          //   },
+          // ),
 
           //to add a division line
           Divider(),
@@ -102,17 +102,17 @@ class NavBar extends StatelessWidget{
 
           Divider(),
 
-          ListTile(
-            leading: Icon(Icons.history),
-            title: Text('Order History'),
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => OrderHistory(),
-                ),
-              );
-            },
-          ),
+          // ListTile(
+          //   leading: Icon(Icons.history),
+          //   title: Text('Order History'),
+          //   onTap: () {
+          //     Navigator.push(
+          //       context,
+          //       MaterialPageRoute(builder: (context) => OrderHistory(),
+          //       ),
+          //     );
+          //   },
+          // ),
 
 
 

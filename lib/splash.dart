@@ -36,25 +36,12 @@ class _SplashState extends State<Splash> {
               child: Container(
                 margin: EdgeInsets.fromLTRB(0.0, 250.0, 0.0, 0.0),
                 child:CircleAvatar(
-                  backgroundImage: AssetImage('assets/logo.png'),
+                  backgroundImage: AssetImage('assets/agrisafe-logos.jpeg'),
                   radius: 120.0,
                 ),
               ),
             ),
 
-            Center(
-              child: Container(
-                margin: EdgeInsets.fromLTRB(0.0, 260.0, 0.0, 10.0),
-                child: Text(
-                    'by टू2Technologies',
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 25.0,
-                  ),
-                  textAlign: TextAlign.center,
-                ),
-              ),
-            )
           ],
         ),
           decoration: BoxDecoration(

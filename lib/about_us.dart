@@ -17,7 +17,7 @@ class AboutUs extends StatelessWidget{
               Container(
                 margin: EdgeInsets.all(20.0),
                 child: CircleAvatar(
-                    backgroundImage: AssetImage('assets/logo.png'),
+                    backgroundImage: AssetImage('assets/agrisafe-logos.jpeg'),
                      radius: 100.0,
 
                   ),
@@ -46,7 +46,7 @@ class AboutUs extends StatelessWidget{
 
               SizedBox(height: 25.0,),
               Container(
-                margin: EdgeInsets.fromLTRB(0.0, 0.0, 50.0, 0.0),
+                margin: EdgeInsets.fromLTRB(10.0, 0.0, 10.0, 0.0),
                 width: 1400,
                 height: 380,
                 decoration: BoxDecoration(
@@ -55,38 +55,40 @@ class AboutUs extends StatelessWidget{
 
                 ),
                 alignment: Alignment.bottomLeft,
-                child: Container(
-                  margin: EdgeInsets.fromLTRB(0.0, 0.0, 30.0, 0.0),
-                  padding: EdgeInsets.all(10.0),
-                  width: 1280,
-                  height: 360,
-                  decoration: BoxDecoration(
-                    color: Colors.yellow[700],
-                    //borderRadius: BorderRadius.circular(200.0),
-                  ),
-                  child: Column(
-                    children: [
-                      Text(
-                            'How does Food Saver help solve this?',
+                child: Center(
+                  child: Container(
+                    margin: EdgeInsets.fromLTRB(10.0, 0.0, 10.0, 0.0),
+                    padding: EdgeInsets.all(10.0),
+                    width: 1280,
+                    height: 360,
+                    decoration: BoxDecoration(
+                      color: Colors.yellow[700],
+                      //borderRadius: BorderRadius.circular(200.0),
+                    ),
+                    child: Column(
+                      children: [
+                        Text(
+                              'How does AgriSafe help solve this?',
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontSize: 20.0,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+
+                        SizedBox(height: 10.0),
+                        Text(
+                          'AgriSafe is a platform that keeps track of the food in your house,your warehouse and other storage areas and will alert you about the food which is about to expire.\n\n'
+                              'Creates a list of edible items present, Avoiding wastage of food, Get recipe of various dishes, Easy to keep track,Easy for User to handle produt, Expiry of food is also wastage of resources involved in makingof that edible.',
                           style: TextStyle(
                             color: Colors.black,
-                            fontSize: 20.0,
-                            fontWeight: FontWeight.bold,
+                            fontSize: 17.0,
+                            fontWeight: FontWeight.w400,
+                            fontStyle: FontStyle.italic,
                           ),
                         ),
-
-                      SizedBox(height: 10.0),
-                      Text(
-                        'Food Saver is a platform that keeps track of the food in your house,your warehouse and other storage areas and will alert you about the food which is about to expire.\n\n'
-                            'Creates a list of edible items present, Avoiding wastage of food, Get recipe of various dishes, Easy to keep track,Easy for User to handle produt, Expiry of food is also wastage of resources involved in makingof that edible.',
-                        style: TextStyle(
-                          color: Colors.black,
-                          fontSize: 17.0,
-                          fontWeight: FontWeight.w400,
-                          fontStyle: FontStyle.italic,
-                        ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
                 ),
               ),

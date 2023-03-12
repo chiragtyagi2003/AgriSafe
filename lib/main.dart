@@ -12,7 +12,9 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       //home page
       home: Splash(),
+      debugShowCheckedModeBanner: false,
     );
+
   }
 }
 

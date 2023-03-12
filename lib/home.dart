@@ -12,11 +12,12 @@ class Home extends StatelessWidget{
         child: Column(
           children: [
             SizedBox(height: 20.0,),
-            Center(
+            Container(
+              padding: EdgeInsets.fromLTRB(12, 10, 12, 0),
               child: Text(
-                'Welcome to\nFood Saver!',
+                'Welcome to AgriSafe!',
                 style: TextStyle(
-                  fontSize: 40.0,
+                  fontSize: 35.0,
                   color: Colors.black,
                 ),
               ),
@@ -24,19 +25,14 @@ class Home extends StatelessWidget{
 
             SizedBox(height: 25.0,),
             CircleAvatar(
-              backgroundImage: AssetImage('assets/logo2.png'),
+              backgroundImage: AssetImage('assets/agrisafe-logos.jpeg'),
               backgroundColor: Colors.white,
               radius: 150.0,
             ),
 
             SizedBox(height: 200.0,),
 
-            Text(
-                'by टू2Technologies',
-                style: TextStyle(
-                  fontSize: 25.0,
-                ),
-            ),
+
           ],
         ),
       ),

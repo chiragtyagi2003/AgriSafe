@@ -23,9 +23,11 @@ class Products extends StatelessWidget{
                     margin: EdgeInsets.all(15.0),
                     padding: EdgeInsets.all(4.0),
                     child: GestureDetector(
-                      child: Image.network(
-                          'https://i.pinimg.com/564x/67/ff/04/67ff0431ed4ecbf10ebed90c15eb6d0a.jpg',
-                        fit: BoxFit.cover,
+                      child: ClipRect(
+                        child: Image.network(
+                            'https://i.pinimg.com/564x/67/ff/04/67ff0431ed4ecbf10ebed90c15eb6d0a.jpg',
+                          fit: BoxFit.cover,
+                        ),
                       ),
                       onTap: () {
                         Navigator.push(
